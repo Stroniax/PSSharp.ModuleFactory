@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AmbiguousPath" xml:space="preserve">
+    <value>The path is expected to resolve to a single path but the the provided value matched multiple paths.</value>
+  </data>
+  <data name="AmbiguousPathInterpolated" xml:space="preserve">
+    <value>The path '{0}' is expected to resolve to a single path but the provided value matched multple paths.</value>
+  </data>
+  <data name="AmbiguousTemplateName" xml:space="preserve">
+    <value>The provided template name is ambiguous. More than one templates matched the provided value.</value>
+  </data>
+  <data name="AmbiguousTemplateNameInterpolated" xml:space="preserve">
+    <value>The provided template name is ambiguous. More than one templates matched the provided value '{0}'.</value>
+  </data>
+  <data name="BuildConfigurationNotFound" xml:space="preserve">
+    <value>The module configuration for the module specified does not exist.</value>
+  </data>
+  <data name="BuildConfigurationNotFoundInterpolated" xml:space="preserve">
+    <value>The module configuration '{0}' for the module '{1}' does not exist.</value>
+  </data>
+  <data name="BuildModuleNotFound" xml:space="preserve">
+    <value>The module with the name specified does not have any build configurations defined.</value>
+  </data>
+  <data name="BuildModuleNotFoundInterpolated" xml:space="preserve">
+    <value>The module with the name '{0}' does not have any build configurations defined.</value>
+  </data>
+  <data name="BuildScriptModuleDebugIgnoredUsingModule" xml:space="preserve">
+    <value>The 'using module {0}' directive from file '{1}' is being ignored because the target file is being included in the generated script module</value>
+  </data>
+  <data name="BuildScriptModuleDebugReadingFile" xml:space="preserve">
+    <value>Reading script file '{0}'.</value>
+  </data>
+  <data name="BuildScriptModuleDebugScriptRequirements" xml:space="preserve">
+    <value>Identifying script requirements.</value>
+  </data>
+  <data name="BuildScriptModuleVerboseHadErrorsInterpolated" xml:space="preserve">
+    <value>The script module '{0}' will not be built because one or more errors were identified which may cause the script module to contain unexpected content.</value>
+  </data>
+  <data name="BuildScriptModuleWarningNoFiles" xml:space="preserve">
+    <value>No source files were identified for the script module.</value>
+  </data>
+  <data name="BuildScriptModuleWarningUpToDate" xml:space="preserve">
+    <value>The script module '{0}' is up to date. Use the -Force parameter to re-generate the module anyway.</value>
+  </data>
+  <data name="CompareModuleFingerprintInformation" xml:space="preserve">
+    <value>The following changes were identified between the two module fingerprints: {0}.</value>
+  </data>
+  <data name="ConflictingApplicationIdRequirement" xml:space="preserve">
+    <value>The application id defined in the requirements of the script file does not match the application id required by another script file provided.</value>
+  </data>
+  <data name="ConflictingApplicationIdRequirementInterpolated" xml:space="preserve">
+    <value>The application id defined in the requirements of the script file '{0}' does not match the application id required by another script file provided.</value>
+  </data>
+  <data name="ConflictingApplicationIdRequirementRecommendedAction" xml:space="preserve">
+    <value>Specify a matching application id in the requirements for the script files, or build the files into separate modules.</value>
+  </data>
+  <data name="ConflictingPSEditionRequirement" xml:space="preserve">
+    <value>The PSEdition(s) defined in the requirements of the script file does not match the PSEdition(s) required by another script file provided.</value>
+  </data>
+  <data name="ConflictingPSEditionRequirementInterpolated" xml:space="preserve">
+    <value>The PSEdition(s) defined in the requirements of the script '{0}' file does not match the PSEdition(s) required by another script file provided.</value>
+  </data>
+  <data name="ConflictingPSEditionRequirementRecommendedAction" xml:space="preserve">
+    <value>Specify the same PSEdition requirements in the script files, or build the files into separate script modules.</value>
+  </data>
+  <data name="DataFileCastError" xml:space="preserve">
+    <value>The contents of the data file cannot be converted to the expected type.</value>
+  </data>
+  <data name="DataFileCastErrorInterpolated" xml:space="preserve">
+    <value>The contents of the data file '{0}' cannot be converted to the expected type '{1}'.</value>
+  </data>
+  <data name="DataFileContentsInvalid" xml:space="preserve">
+    <value>The contents of the data file are invalid. The file must contain a hashtable or an array of hashtables.</value>
+  </data>
+  <data name="DataFileContentsInvalidInterpolated" xml:space="preserve">
+    <value>The contents of the data file at path '{0}' are invalid. The file must contain a hashtable or an array of hashtables.</value>
+  </data>
+  <data name="ExpectedFileSystemPath" xml:space="preserve">
+    <value>The path must indicate a location on the file system. The provided value resolved to a path that does not exist on the FileSystemProvider.</value>
+  </data>
+  <data name="ExpectedFileSystemPathInterpolated" xml:space="preserve">
+    <value>The path must indicate a location on the file system. The provided value '{0}' resolved to a path that does not exist on the FileSystemProvider.</value>
+  </data>
+  <data name="FileExists" xml:space="preserve">
+    <value>A file at the destination path already exists.</value>
+  </data>
+  <data name="FileExistsInterpolated" xml:space="preserve">
+    <value>A file at the destination path '{0}' already exists.</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>No file exists at the expected path.</value>
+  </data>
+  <data name="FileNotFoundInterpolated" xml:space="preserve">
+    <value>No file exists at the expected path '{0}'.</value>
+  </data>
+  <data name="GeneratedInvalidScript" xml:space="preserve">
+    <value>The generated script module file is invalid; the content cannot be parsed as a PowerShell script file. See the inner exception for specific errors.</value>
+  </data>
+  <data name="GeneratedInvalidScriptRecommendedAction" xml:space="preserve">
+    <value>File a new issue in the github repository for the PSSharp.ModuleFactory module with as much informaton as possible about the source and content of the invalid script.</value>
+  </data>
+  <data name="HelpMessageBuildScriptModuleDestinationPath" xml:space="preserve">
+    <value>The path that the resulting script module ('.psm1' file) will be created at.</value>
+  </data>
+  <data name="HelpMessageBuildScriptModuleLiteralPath" xml:space="preserve">
+    <value>The path to one or more script files to be compiled into a script module. This parameter does not support wildcards.</value>
+  </data>
+  <data name="HelpMessageBuildScriptModulePath" xml:space="preserve">
+    <value>The path to one or more script files to be compiled into a script module. This parameter supports wildcards.</value>
+  </data>
+  <data name="HelpMessageCompareModuleFingerprintCurrent" xml:space="preserve">
+    <value>A current fingerprint of the module to compare, which may include new changes. If the value represents a file path representing a serialized module fingerprint, the fingerprint will be loaded from the file.</value>
+  </data>
+  <data name="HelpMessageCompareModuleFingerprintInitial" xml:space="preserve">
+    <value>The previous fingerprint from the module to be compared against. If the value represents a file path representing a serialized module fingerprint, the fingerprint will be loaded from the file.</value>
+  </data>
+  <data name="IncludeSourceFileInDestination" xml:space="preserve">
+    <value>The destination file cannot be included in the source files provided to build the module.</value>
+  </data>
+  <data name="IncludeSourceFileInDestinationInterpolated" xml:space="preserve">
+    <value>The destination file '{0}' cannot be included in the source files provided to build the module.</value>
+  </data>
+  <data name="IncludeSourceFileInDestionationRecommendedAction" xml:space="preserve">
+    <value>Filter the source files to exclude the destination path. This can be done by piping results from Get-ChildItem -Exclude $DestinationPath into the {0} command.</value>
+  </data>
+  <data name="MemberTypeInvalid" xml:space="preserve">
+    <value>The member '{0}' must be convertable to type '{1}'.</value>
+  </data>
+  <data name="ModuleFingerprintToString" xml:space="preserve">
+    <value>Module Fingerprint : {0} combinatorials of {1} commands.</value>
+  </data>
+  <data name="ModuleNotImported" xml:space="preserve">
+    <value>The module is not imported into the current PowerShell session.</value>
+  </data>
+  <data name="ModuleNotImportedInterpolated" xml:space="preserve">
+    <value>The module '{0}' is not imported into the current PowerShell session.</value>
+  </data>
+  <data name="ModuleNotImportedRecommendedAction" xml:space="preserve">
+    <value>Import the module into the PowerShell session and try again.</value>
+  </data>
+  <data name="ModuleTemplateValidationException" xml:space="preserve">
+    <value>The template data is invalid. View the exception for more information.</value>
+  </data>
+  <data name="MultipleDynamicParamBlocksDefined" xml:space="preserve">
+    <value>More than one script file included a script-level dynamic param block definition. Only one script may define a script-level dynamic param block definition which will be used for the generated module. Build the scripts into separate files or remove the dynamic param block from one of the files.</value>
+  </data>
+  <data name="MultipleParamBlocksDefined" xml:space="preserve">
+    <value>More than one script file included a script-level param block definition. Only one script may define a script-level param block definition which will be used for the generated module. Build the scripts into separate files or remove the param block from one of the files.</value>
+  </data>
+  <data name="NestedModuleNameRequired" xml:space="preserve">
+    <value>The module cannot be built because the nested module definition does not define a valid name.</value>
+  </data>
+  <data name="NestedModuleNameRequiredInterpolated" xml:space="preserve">
+    <value>The module '{0}' (configuration '{1}') cannot be built because the nested module definition at index {2} does not define a valid name.</value>
+  </data>
+  <data name="NewModuleProjectCreateDirectory" xml:space="preserve">
+    <value>Creating directory '{0}'</value>
+  </data>
+  <data name="NewModuleProjectCreateFile" xml:space="preserve">
+    <value>Creating file '{0}'.</value>
+  </data>
+  <data name="NewModuleProjectCreateFileFromTemplate" xml:space="preserve">
+    <value>Creating file '{0}' from template. Interpolating variables in file content: {1}.</value>
+  </data>
+  <data name="NewModuleProjectExecutingCommand" xml:space="preserve">
+    <value>Executing post-template creation command '{0}'.</value>
+  </data>
+  <data name="ParameterSetNotImplemented" xml:space="preserve">
+    <value>Parameter set '{0}' not implemented. If you experience this error with a production version of the module, please contact the module developer.</value>
+  </data>
+  <data name="ParseError" xml:space="preserve">
+    <value>The expression or file could not be parsed.</value>
+  </data>
+  <data name="ParseErrorInterpolated" xml:space="preserve">
+    <value>The expression or file '{0}' could not be parsed.</value>
+  </data>
+  <data name="RepositoryTemplateIdConflict" xml:space="preserve">
+    <value>The repository already contains a template with a matching template id.</value>
+  </data>
+  <data name="RepositoryTemplateIdConflictInterpolated" xml:space="preserve">
+    <value>The repository already contains a template with a matching template id '{0}'.</value>
+  </data>
+  <data name="RepositoryTemplateNameRequired" xml:space="preserve">
+    <value>The template must have a name.</value>
+  </data>
+  <data name="RequiredMember" xml:space="preserve">
+    <value>The member is required.</value>
+  </data>
+  <data name="RequiredMemberInterpolated" xml:space="preserve">
+    <value>The member '{0}' is required.</value>
+  </data>
+  <data name="ScriptBlockAstNotFromFile" xml:space="preserve">
+    <value>The ScriptBlock ast must be from a file for the attempted operation.</value>
+  </data>
+  <data name="ScriptModuleBeginBlock" xml:space="preserve">
+    <value>A script module '.psm1' file cannot contain a Begin block. The source file contains a Begin clause.</value>
+  </data>
+  <data name="ScriptModuleBeginBlockInterpolated" xml:space="preserve">
+    <value>A script module '.psm1' file cannot contain a Begin block. The source file '{0}' contains a Begin clause.</value>
+  </data>
+  <data name="ScriptModuleSingleClause" xml:space="preserve">
+    <value>A script module '.psm1' file cannot contain both a Process block and an End block. The source file identified a Process or End clause after a clause of the opposite type was identified.</value>
+  </data>
+  <data name="ScriptModuleSingleClauseInterpolated" xml:space="preserve">
+    <value>A script module '.psm1' file cannot contain both a Process block and an End block. The source file '{0}' identified a {1} clause after a clause of the opposite type was identified.</value>
+  </data>
+  <data name="ScriptModuleSingleClauseRecommendedAction" xml:space="preserve">
+    <value>All script logic must be in the Process or End blocks of a script file. In addition, the script module cannot contain both a Process and an End block. Consider storing all script logic in the End block of the source file(s).</value>
+  </data>
+  <data name="ShouldProcessAndCreateDirectoryDescription" xml:space="preserve">
+    <value>
+Creating a directory at path '{0}.</value>
+  </data>
+  <data name="ShouldProcessAndCreateDirectoryWarning" xml:space="preserve">
+    <value>
+This operation will also create a directory at path '{0}'.</value>
+  </data>
+  <data name="ShouldProcessBuildScriptModuleAction" xml:space="preserve">
+    <value>Build script module</value>
+  </data>
+  <data name="ShouldProcessBuildScriptModuleDescription" xml:space="preserve">
+    <value>Building script module at path '{0}' from {1} script files.</value>
+  </data>
+  <data name="ShouldProcessBuildScriptModuleWarning" xml:space="preserve">
+    <value>Build script module at path '{0}' from {1} script files?</value>
+  </data>
+  <data name="ShouldProcessExportModuleFingerprintAction" xml:space="preserve">
+    <value>Export module fingerprint</value>
+  </data>
+  <data name="ShouldProcessExportModuleFingerprintDescription" xml:space="preserve">
+    <value>Exporting module fingerprint json to path '{0}'.</value>
+  </data>
+  <data name="ShouldProcessExportModuleFingerprintWarning" xml:space="preserve">
+    <value>Export module fingerprint json to path '{0}'?</value>
+  </data>
+  <data name="ShouldProcessNewModuleProjectAction" xml:space="preserve">
+    <value>Create new module project from template</value>
+  </data>
+  <data name="ShouldProcessNewModuleProjectDescription" xml:space="preserve">
+    <value>Creating a new module project at path '{0}' from the template '{1}'.</value>
+  </data>
+  <data name="ShouldProcessNewModuleProjectWarning" xml:space="preserve">
+    <value>Create a new module project at path '{0}' from the template '{1}'?</value>
+  </data>
+  <data name="ShouldProcessNewModuleTemplateDescription" xml:space="preserve">
+    <value>Creating a new module template '{0} ({1})' from path '{2}'.</value>
+  </data>
+  <data name="ShouldProcessNewModuleTemplateWarning" xml:space="preserve">
+    <value>Create a new module template '{0} ({1})' from path '{2}'?</value>
+  </data>
+  <data name="ShouldProcessRegisterModuleTemplateAction" xml:space="preserve">
+    <value>Add existing module template</value>
+  </data>
+  <data name="ShouldProcessRegisterModuleTemplateDescription" xml:space="preserve">
+    <value>Adding existing module template '{0}' with tempalte id '{1}'.</value>
+  </data>
+  <data name="ShouldProcessRegisterModuleTemplateWarning" xml:space="preserve">
+    <value>Add existing module template '{0} with template id '{1}'?</value>
+  </data>
+  <data name="ShouldProcessRemoveModuleTemplateDescription" xml:space="preserve">
+    <value>Removing module '{0}' with id {1}.</value>
+  </data>
+  <data name="ShouldProcessRemoveModuleTemplateWarning" xml:space="preserve">
+    <value>Remove module '{0}' with id {1}.</value>
+  </data>
+  <data name="ShouldProcessSetModuleTemplateRepositoryAction" xml:space="preserve">
+    <value>Replace the current module template repository</value>
+  </data>
+  <data name="ShouldProcessSetModuleTemplateRepositoryDescription" xml:space="preserve">
+    <value>Using the module template repository '{0}' (current repository: {1}).</value>
+  </data>
+  <data name="ShouldProcessSetModuleTemplateRepositoryWarning" xml:space="preserve">
+    <value>Use the module template repository '{0}' (current repository: {1})?</value>
+  </data>
+  <data name="TemplateDataFileNotFound" xml:space="preserve">
+    <value>The template directory does not contain a valid template data file. The data file must be named "template.psd1" and exist in the root directory of the template.</value>
+  </data>
+  <data name="TemplateDataFileNotFoundInterpolated" xml:space="preserve">
+    <value>The template directory '{0}' does not contain a valid template file. The data file must be named "template.psd1" and exist in the root directory of the template.</value>
+  </data>
+  <data name="TemplateNameRequired" xml:space="preserve">
+    <value>The template data file must define a Name property.</value>
+  </data>
+  <data name="TemplateNameRequiredInterpolated" xml:space="preserve">
+    <value>The template data file at path '{0}' must define a Name property.</value>
+  </data>
+  <data name="TemplateNotFound" xml:space="preserve">
+    <value>The template does not exist.</value>
+  </data>
+  <data name="TemplateNotFoundInterpolated" xml:space="preserve">
+    <value>The template '{0}' does not exist.</value>
+  </data>
+  <data name="TemplateVersionConflict" xml:space="preserve">
+    <value>A module template with the same name and version already exists.</value>
+  </data>
+  <data name="TemplateVersionConflictInterpolated" xml:space="preserve">
+    <value>A module template with the same name '{0}' and version '{1}' already exists.</value>
+  </data>
+  <data name="TemplateVersionConflictRecommendedAction" xml:space="preserve">
+    <value>Change the name or version of the template you are trying to create.</value>
+  </data>
+  <data name="TooManyPropertiesInterpolated" xml:space="preserve">
+    <value>Cannot assign the property(ies) {0} to the target object.</value>
+  </data>
+  <data name="UploadingTemplateFileVerbose" xml:space="preserve">
+    <value>Uploading template file from path '{0}'.</value>
+  </data>
+  <data name="ValueNotConstant" xml:space="preserve">
+    <value>The value of the expression or file must be constant.</value>
+  </data>
+  <data name="ValueNotConstantInterpolated" xml:space="preserve">
+    <value>The value of the expression or file '{0}' must be constant.</value>
+  </data>
+</root>

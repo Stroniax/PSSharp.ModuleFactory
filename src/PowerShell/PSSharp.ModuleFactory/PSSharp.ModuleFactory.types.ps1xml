@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Types>
+    <Type>
+        <Name>PSSharp.ModuleFactory.ConfigurationValue</Name>
+        <TypeConverter>
+            <TypeName>
+                PSSharp.ModuleFactory.ConfigurationValuePSTypeConverter
+            </TypeName>
+        </TypeConverter>
+    </Type>
+</Types>

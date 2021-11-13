@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion Condition=" '$(TargetFramework)' == 'netstandard2.0' ">8.0</LangVersion>
+    <DisableImplicitNamespaceImports>true</DisableImplicitNamespaceImports>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="System" />
+		<Using Include="System.IO" />
+		<Using Include="System.Collections" />
+		<Using Include="System.Collections.Generic" />
+		<Using Include="System.Linq" />
+		<Using Include="System.Management.Automation" />
+		<Using Include="System.Threading.Tasks" />
+		<Using Include="PSSharp.ModuleFactory.Properties" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Condition=" '$(TargetFramework)' == 'netstandard2.0' " Include="PowerShellStandard.Library" Version="5.1.0" PrivateAssets="All" />
+    <PackageReference Condition=" '$(TargetFramework)' != 'netstandard2.0' " Include="System.Management.Automation" Version="7.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
